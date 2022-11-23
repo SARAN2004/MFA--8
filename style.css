@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Space Mono', monospace;
+}
+
+
+body{
+    background-color: rgb(189, 199, 209);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+}
+.div-wrap{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 350px;
+    width: 700px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.div-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 280px;
+}
+
+.left-con1,.left-con2{
+    width: 280px;
+}
+.div-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 10px;
+    padding: 20px;
+}
+.item-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:10px 10px;
+    margin-top: 10px;
+
+}
+.item{
+    width: 60px;
+    padding: 10px 10px;
+    text-align: center;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    color:  hsl(180, 59%, 92%);
+    font-size: 20px;
+}
+.item.six{
+    background-color: hsl(180, 59%, 92%);
+    color:hsl(183, 100%, 15%) ;
+    font-size: 18px;
+    font-weight: 700;
+}
+input{
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: hsl(180, 59%, 92%);
+    border: none;
+    border-radius: 5px;
+}
+.right-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+}
+.right-con1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+.right-con2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+}
+h4{
+    font-size: 35px;
+    
+    color:  ;
+}
+.left-con1,.left-con3{
+    position: relative;
+
+}
+.right-con3 button{
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: hsl(186, 14%, 43%);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(184, 14%, 56%);
+}
+
+.after{
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0.3;
+}
+.before{
+    position: absolute;
+    left: 10px;
+    top: 35px;
+    font-size: 20px;
+}
